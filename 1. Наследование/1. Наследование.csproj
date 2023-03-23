@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_1._Наследование</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="1_Simple.cs" />
+    <Compile Remove="2_Constructors.cs" />
+    <Compile Remove="3_Ref_On_ Base_Class.cs" />
+    <Compile Remove="4_Virtual.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="1_Simple.cs" />
+    <None Include="2_Constructors.cs" />
+    <None Include="3_Ref_On_ Base_Class.cs" />
+    <None Include="4_Virtual.cs" />
+  </ItemGroup>
+
+</Project>
